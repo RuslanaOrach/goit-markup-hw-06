@@ -253,7 +253,7 @@
     </main>
 
     <!-- Футер -->
-    <footer class="footer-section">
+      <footer class="footer-section">
       <div class="container footer-block">
         <div class="address-part">
           <a href="./index.html" class="logo-footer"><span class="logo-item">Web</span>Studio</a>
@@ -277,7 +277,7 @@
         </div>
 
         <div class="join-part">
-          <h2 class="footer-join-title">приєднуйтесь</h2>
+          <p class="footer-join-title">приєднуйтесь</h2>
           <ul class="footer-social-list list">
             <li class="item">
               <a href class="footer-social-link">
@@ -309,6 +309,22 @@
             </li>
           </ul>
         </div>
+        <div>
+          <p class="subscription-title">Підпишіться на розсилку</p>
+          
+          <form class="subscription-part">
+          <label for="user_mail">
+          <input class="subscription-input" type="email" name="user_mail" 
+          placeholder="E-mail" required/>
+        </label>
+          <button type="submit" class="subscription-btn">
+          Підписатися
+          <svg class="sub-send-icon" width="24" height="24">
+          <use href="./images/symbol-defs.svg#icon-send"></use>
+        </svg>
+          </button>
+      </form>
+    </div>
       </div>
     </footer>
   </body>
