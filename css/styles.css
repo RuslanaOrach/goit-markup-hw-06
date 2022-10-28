@@ -634,12 +634,12 @@ body {
 
 .footer-block {
   display: flex;
-  gap: 70px;
   align-items: baseline;
 }
 
 .join-part {
   display: block;
+  margin-left: 70px;
 }
 
 .footer-join-title {
@@ -689,7 +689,12 @@ body {
 }
 
 .subscription-part {
+  margin-left: auto;
+}
+
+.subscription-field {
   display: flex;
+  margin-top: 20px;
 }
 
 .subscription-title {
@@ -704,7 +709,6 @@ body {
 
 .subscription-input {
   /* display: flex; */
-  margin-top: 20px;
   padding: 16px 15px;
   width: 358px;
   height: 50px;
@@ -724,7 +728,7 @@ body {
 
 .subscription-btn {
   padding: 10px 32px;
-  margin: 20px 12px;
+  margin-left: 12px;
   display: flex;
   text-align: center;
   letter-spacing: 0.06em;
@@ -863,7 +867,7 @@ body {
   background: var(--white-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50px;
-  transition-property: color, background, box-shadow;
+  transition-property: color, background, box-shadow, border;
   transition-duration: var(--transition-time);
   transition-timing-function: var(--cubic);
 }
@@ -911,10 +915,15 @@ textarea {
   letter-spacing: 0.01em;
 }
 
+.field-comment {
+  margin-bottom: 20px;
+}
+
 .form-label {
   color: rgba(117, 117, 117, 1);
 }
 .form-input {
+  height: 40px;
   margin-top: 4px;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -937,9 +946,8 @@ textarea {
 
 .comment {
   margin-top: 4px;
-  margin-bottom: 20px;
   padding: 12px;
-  width: 480px;
+  width: 100%;
   height: 120px;
   outline: none;
 
@@ -980,7 +988,7 @@ textarea {
 
 .checkbox-icon {
   display: inline-block;
-  width: 16px;
+  width: 15px;
   height: 15px;
   margin-right: 8.38px;
 
